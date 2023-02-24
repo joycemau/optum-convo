@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "deploy": "gh-pages -d build",
-    "build": "rm -fr ./dist;parcel build src/index.html -d ./dist"
+    "build": "parcel build src/index.html -d ./dist"
   },
   "author": "",
   "license": "ISC",
