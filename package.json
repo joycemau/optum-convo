@@ -1,0 +1,35 @@
+{
+  "homepage": "https://joycemau.github.io/optum-convo",
+  "name": "optum-conversation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "deploy": "gh-pages -d build",
+    "build": "parcel build src/index.html -d ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^5.2.0",
+    "atom": "^1.4.1",
+    "axios": "^0.27.2",
+    "classnames": "^2.2.6",
+    "gh-pages": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.1",
+    "autoprefixer": "^9.8.8",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss-modules": "^1.5.0",
+    "sass": "^1.55.0"
+  }
+}
