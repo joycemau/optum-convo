@@ -29,8 +29,6 @@
   width: 100%;
   @media screen and (max-width: 768px) {
     align-items: center;
-    height: 44px;
-    padding: 0;
   }
 
   svg {
@@ -38,10 +36,6 @@
     margin: 0;
     padding-right: 40px;
     padding-top: 4px;
-    @media screen and (max-width: 768px) {
-      width: 100px;
-      height: auto;
-    }
   }
 }
 
@@ -63,6 +57,10 @@
   .text {
     width: calc(100% - 232px);
     max-width: 800px;
+    @media screen and (max-width: 600px) {
+      margin-bottom: 20px;
+      width: 100%;
+    }
   }
 
   button {

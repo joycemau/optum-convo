@@ -71,7 +71,7 @@ export default {
       image: {
         src: require("assets/teen.png"),
         placeholder: require("assets/teen_thumb.png"),
-        height: 260,
+        height: 296,
         width: 490,
       },
       link: {
