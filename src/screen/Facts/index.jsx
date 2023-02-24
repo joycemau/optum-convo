@@ -19,7 +19,10 @@ const Facts = ({ title, items }) => (
           <Heading type={"h3"} className={cn(style.label)}>
             {label}
           </Heading>
-          {sublabel}
+          <p>
+            {sublabel}
+            <sup>{i + 1}</sup>
+          </p>
         </div>
       ))}
     </div>
