@@ -1,0 +1,54 @@
+//Typography
+$fontFamily: "Optum Sans", "Arial", sans-serif;
+$fontHeading1: 52px;
+$fontHeading2: 32px;
+$fontHeading3: 28px;
+$fontHeading4: 24px;
+$fontHeading5: 20px;
+$fontBody: 16px;
+$fontLabel: 14px;
+
+//Color Palette
+$optumOrange: var(--palette-primary, #ff612b);
+$optumOrangeHover: var(--palette-primary-hover, #eb4e1a);
+$white: var(--palette-light, #ffffff);
+$sky: var(--palette-gray, #d9f6fa);
+$warmWhite: var(--palette-gray, #fbf9f4);
+$darkBlue: var(--palette-gray, #002677);
+$darkGray: var(--palette-gray, #5a5a5a);
+$link: var(--palette-link, $darkBlue);
+$linkHover: var(--palette-link-hover, #133785);
+
+//Defaults
+$borderColor: #e0e0e0;
+$buttonBGColor: $darkBlue;
+$buttonColor: $white;
+$buttonHover: #133785;
+$footerBGColor: $warmWhite;
+$shadow: rgba(0, 0, 0, 35%);
+
+$h1-font-sizes: (
+  null: 52px,
+  768px: 38px,
+  480px: 34px,
+);
+
+$h2-font-sizes: (
+  null: 32px,
+  768px: 30px,
+);
+
+$h3-font-sizes: (
+  null: 28px,
+  768px: 26px,
+);
+
+$h4-font-sizes: (
+  null: 24px,
+  768px: 22px,
+);
+
+$h5-font-sizes: (
+  null: 20px,
+  480px: 19px,
+);
