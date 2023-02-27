@@ -28,6 +28,7 @@
   &:focus {
     transform: translateY(-4px);
     label {
+      color: $linkHover;
       text-decoration: underline;
     }
   }
