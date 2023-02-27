@@ -2,7 +2,7 @@
 
 .root {
   background-color: $sky;
-  padding: 52px 0 32px;
+  padding: 52px 0 12px;
 }
 
 .content {
@@ -42,8 +42,5 @@
     height: 60px;
     margin-bottom: 12px;
     max-width: 80px;
-    // @media screen and (max-width: 650px) {
-    //   margin-bottom: 0px;
-    // }
   }
 }

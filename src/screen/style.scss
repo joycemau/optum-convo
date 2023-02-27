@@ -36,6 +36,9 @@
     margin: 0;
     padding-right: 40px;
     padding-top: 4px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 4px;
+    }
   }
 }
 
@@ -47,6 +50,9 @@
 .visit_root {
   background-color: $sky;
   margin-top: 40px;
+  @media screen and (max-width: 550px) {
+    margin-top: 20px;
+  }
 }
 
 .visit {
