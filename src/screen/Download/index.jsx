@@ -6,11 +6,14 @@ import Anchor from "components/Anchor";
 import style from "./style.scss";
 import cn from "classnames";
 
-const Download = ({ title, desktop, mobile, image, body }) => (
+const Download = ({ title, subtitle, desktop, mobile, image, body }) => (
   <PageCenter contentClass={cn(style.content)}>
     <div className={cn(style.top)}>
       <div className={cn(style.text)}>
         <Heading>{title}</Heading>
+        <Heading type={"h5"} weight={500}>
+          {subtitle}
+        </Heading>
         <div className={cn(style.buttons)}>
           <Anchor href={desktop.pdf} download={true} target="_blank">
             <Button>{desktop.label}</Button>
