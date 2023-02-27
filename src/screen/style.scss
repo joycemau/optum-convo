@@ -75,8 +75,12 @@
 }
 
 .footer {
+  font-size: $fontLabel;
   padding-bottom: 32px;
   padding-top: 32px;
-  font-size: $fontLabel;
   white-space: pre-line;
+
+  label {
+    padding-right: 52px;
+  }
 }

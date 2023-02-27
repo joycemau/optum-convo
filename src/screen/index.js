@@ -54,6 +54,7 @@ const Screen = () => {
         contentClass={cn(style.footer)}
       >
         <div dangerouslySetInnerHTML={{ __html: data.footer }} />
+        <label>{data.copyright}</label>
       </PageCenter>
     </div>
   );
